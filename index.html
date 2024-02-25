@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>    
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Hill, Joshua, MAT 1500, Project One</title>
+        <style>
+/* Table and Image */
+img {
+    height: 16em;
+    width: 11em;
+}
+img:hover{
+    height: 16.25em;
+    width: 11.25em;
+}
+    table, td, th{
+    border:1px solid white;
+    padding:10px;
+}
+/* Sections */ 
+#top{
+    border-top: 10px solid #00246B;     
+    border-bottom: 10px solid #00246B;  
+    background-color: #EA738D;
+    padding: 20px;
+}
+body {
+    background-color: #89ABE3;
+    color:#ffffff;
+    width: 100%;
+    font-size: 18pt;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 200px;
+    margin-right: 100px;
+}
+#footer {
+    position: fixed; 
+    background-color: #EA738D;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 20pt;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: auto;
+    border-top: 10px solid #00246B; 
+    border-bottom: 10px solid #00246B;          
+}
+/* Specific ID */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.type{
+    font-weight: bolder;
+    font-size: 24pt;
+    margin-right: 100px;
+}
+#dropdowns{
+    margin-left: 2em;
+    margin-top: 55px;
+}
+hr {
+    color:#00246B; 
+}
+summary{
+    font-size: 21pt;
+    font-weight: bold;
+    font-family: monospace;
+    color: #700119;
+    padding: 15px;
+}
+summary:hover{
+    font-style: italic;
+    font-size: 22pt;
+    color: #6d8819;
+}
+#content {
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+/* BUTTON */
+Button {
+    font-size: 20pt;
+    border-radius:10px;
+    color:#03191f;
+    padding:5px 15px;
+}
+/* typewriter */
+.type h2 {
+    color: white;
+    overflow: hidden;
+    border-right: .15em solid white; 
+    margin-right: 100px;
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+/* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+}
+/* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: white }
+}
+</style>           
+</head>
+<!-- HEADER --> 
+    <section id ="top">
+        <div class="type">
+            <h2>MAT 1500: Project One</h2>
+        </div>
+    </section>
+<body>
+<!--INTRO --> 
+<div id="dropdowns">
+    <div id="content">
+<details>
+    <summary>Project Details</summary>
+        <hr>
+            <p>Did you know that 35% of ads have Percentage claims?</p>
+            I made that up. But it demonstrates the issue that this page reviews.
+            We see percentage claims a lot, but do we check or verify them? 
+            How accurate are the numbers we see in our day-to-day lives? 
+            <p>For this project, I reviewed some I encountered throughout 
+            the week of 2/19/2024. 
+            Click on each example for more details.</p>
+        </div>
+</details><p>
+<!--ONE--> 
+    <details>
+        <summary>Example One: Salt</summary>
+<section id="one">
+    <div id="content">
+        <hr>
+        <p>When I was in Manhattan on Tuesday, the 20th of February 2024, 
+        I was looking for snacks in the Duane Reede located at 
+        485 Lexington Ave, New York, NY 10017. I noticed the following % claim while shopping:
+    </div>
+<p>
+<!--IMAGES-->
+    <div class="container">
+        <div>
+            <i>Original Pringles:</i><br>
+                <img src="https://i.imgur.com/tQePNXY.jpeg">
+            <img src="https://i.imgur.com/cre8C7r.jpeg">
+        </div>
+    <div>
+        <i>And Lightly Salted:</i>
+    <br>
+        <img src="https://i.imgur.com/UMLQO3U.jpeg">
+            <img src="https://i.imgur.com/mxTpa97.jpeg">
+        </div>
+    </div>
+<br>
+<!--TABLE-->
+<table>
+    <tr>
+        <th>Pringle Type</th>
+            <th>Sodium</th>
+                <th>Daily Value</th>
+            <th>Serving Size</th>
+        </tr>
+    <tr>
+        <td>Original</td>
+            <td>150mg</td>
+                <td>7%</td>
+        <td>1oz/28g</td>
+    </tr>
+        <td>Lightly Salted</td>
+                <td>70mg</td>
+            <td>3%</td>
+        <td>1oz/28g</td>
+    </tr>
+</table>
+    <div id="content">
+        <br>I will test this claim using the nutritional information provided:
+            <p> This product claims and is marketed towards a lower salt intake. Both items contain the same total calories and serving size. 
+                For this reason, we can use the percentage increase/decrease formula to verify the advertised salt content. 
+                    <p> The Original Pringles will serve as the starting amount, whereas the Lightly Salted will serve as the end or updated amount. 
+                    <p> Total Sodium: (end/start)/start: 
+                <br> = (70-150)/150 
+            <br> = -80/150
+        <br> = -53%  
+    <p>
+        Therefore, this statement not only holds up, but is slightly less Sodium in % to Original than advertised. 
+    <p>
+        We can further check the "recommended daily intake" of sodium to not only verify the included sodim is lower, but the daily intake is the same reduction. 
+    </p>
+        Total daily intake: (end/start)/start:
+            <br> = (3-7)/7
+                <br> = -4/7
+                    <br> = -57%
+                        <p> Similar to the Sodium included per serving, this reduction not only meets the advertised amount but is slightly increased. 
+                    <p><b>Conclusion:</b> Both Orignal Pringles and Lightly Salted specify the same serving size: 1oz/28g and approximately 15 chips.
+                <br> While these numbers are slightly over the advertised 50%, we can confirm that these are approximately 50% decreased sodium for both daily intakes and included sodium, as they measureent itself (about 15 chips), is also approximated.
+            <hr>
+        </div>
+    </section>
+</details>
+<!--ONE--> 
+<p>
+<!--TWO--> 
+<details>
+    <summary>Example Two: Clothing</summary>
+        <section id="two">
+            <div id="content">
+                <hr>
+                    <p> On Saturday the 24th of February 2024, I was riding my bicycle down Broadway in Brooklyn and, on the corner of Flushing Avenue, a store was going out of business and having a sale.
+                <p> There were signs everywhere claiming "25% OFF". I stopped and wondered, are these prices accurate? 
+            <br> I took some photos and have two separate items to review:  
+        </div>
+<!--IMAGES-->
+    <div class="container">
+<div>
+    <i>Shirts</i><br>
+        <img src="https://i.imgur.com/WBMqPVa.jpeg">
+        <img src="https://i.imgur.com/44ZTQgt.jpeg">
+    </div>
+<div>
+    <i>Joggers</i><br>
+        <img src="https://i.imgur.com/lyOydxJ.jpeg">
+        <img src="https://i.imgur.com/yhiVK0x.jpeg">
+    </div>
+</div>
+    <br>
+<!--TABLE-->
+<table>
+    <tr>
+        <th>Item</th>
+            <th>Sales Price</th>
+                <th>Original Price</th>
+            <th>Claimed Discount</th>
+        </tr>
+    <tr>
+        <td>Shirt</td>
+            <td>$1.99</td>
+                <td>$3.99</td>
+            <td>25%</td>
+        </tr>
+            <td>Joggers</td>
+                <td>$4.99</td>
+            <td>$7.99</td>
+        <td>25%</td>
+    </tr>
+</table>
+    <div id="content">
+        <p>These prices seemed a little low, so I decided to review the sales % and what the real price should be for both items at 25% off. 
+            <p>For finding the reduced percentage, we would calculate the increase/decrease in percentage. 
+                <br>This is done through the equation <b>Change</b>=(end-start)/start. 
+                    <br>In the case of the shirts, we have (1.99-3.99)/3.99. 
+                        <br>=-2/3.99
+                            <br>= - 50%. 
+                            <p>Wow! This business owner is doubling the discount and selling for 50% off while advertising 25%. 
+                                <br>Let's say I wanted to help them out, what would an accurate 25% off price be? 
+                                    <br>If the original price is $3.99, let's work out 25%: 
+                                        <br>3.99(0.25) = $1; so we would remove $1(25%) from the price.
+                                            <br>And using the same formula we can check:
+                                                <br><b>Change in %</b>= (2.99-3.99)/3.99
+                                                    <br>=25%. So we would list this item for $2.99.<p>
+                                                <p>We can now summarize this store owner may not be the best with percentages. So let's check the joggers for them, too, using the same workflow. 
+                                            <br>As <b>change in % </b>=(end-start)/start, using the price for joggers we get: 
+                                        <br>(4.99-7.99)/7.99
+                                    <br>=-38%.
+                                <p>Another steal! 37% discount. Suppose we wanted to help again and offer the real 25% off, we would work out: 
+                            <br>7.99(0.25)=$2, so we would remove $2 from the price to get $5.99
+                        <br>We can then check that <b>Change in % </b>= (5.99-7.99)/7.99
+                        <br>=25%. So we would list this item for $5.99.
+                    <p>Great! With our knowledge of percentages, we may just save this shopowner a few dollars.<p>
+                <b>Conclusion:</b> I am not sure if these were just the signs the owner had available, or they are 25% off a different price, but they were not accurate. 
+            <p>All of these items were well below what they were advertised as in terms of percentages. While I doubt anyone would complain, this business owner should be more careful. 
+        These claims of 25% off were completely false and were actually much more discounted.
+    <hr>
+</div>
+    </section>
+</details>
+<!--TWO--> 
+    <p>
+<!--THREE--> 
+<details>
+    <summary>Example Three: Fat</summary>
+        <section id="three">
+            <div id="content">
+        <hr>
+    <p>This one is different: it is advertising a fraction, not a percentage. With that said, we'll need to use the same math, and I have already reviewed three different items. 
+<p>That same Saturday (the 24th) I was in the supermarket looking for lunch items and noticed that Philadelphia Cream Cheese advertised their products as "1/3 Less Fat". 
+    <br>As I have had a mixed track record with percentages that day, I decided to review carefully. For accuracy, I included: <!--IMAGES-->
+</div>
+    <div class="container">
+       <div>
+           <i>Philadelphia 1/3 Fat Cream Cheese</i><br>
+                <img src="https://i.imgur.com/JzmvRca.jpeg">
+                    <img src="https://i.imgur.com/HoqQcZt.jpeg">
+                </div>
+                <div>
+            <i>Philadelphia Original Cream Cheese</i><br>
+                <img src="https://i.imgur.com/towT8lr.jpeg">
+                        <img src="https://i.imgur.com/NIXjjAQ.jpeg">
+                    </div>
+                <div>
+            <i>Cream Cheese, differing brand</i><br>
+                <img src="https://i.imgur.com/r2Aicx0.jpeg">
+                    <img src="https://i.imgur.com/Yoznst7.jpeg">
+                </div>
+            </div>
+        <br>
+<!--TABLE-->
+<table>
+    <tr>
+        <th>Cream Cheese Type</th>
+            <th>Total Fat</th>
+                <th>% Daily Value</th>
+            <th>Serving Size</th>
+        </tr>
+    <tr>
+        <td>Philly Reduced Fat</td>
+            <td>5g</td>
+                <td>7%</td>
+            <td>2 Tbsp</td>
+        </tr>
+        <tr>
+        <td>Philly Original</td>
+            <td>7g</td>
+                <td>9%</td>
+            <td>2 Tbsp</td>
+        </tr>
+        <tr>
+            <td>Organic Valley</td>
+                <td>10g</td>
+            <td>13%</td>
+        <td>2 Tbsp</td>
+    </tr>
+</table>
+    <div id="content">
+        <p>Using similar workflows as before, we can work out the exact % decrease in fat content, and verify whether that is fractionally 1/3rd of Philadelphia or another standard cream cheese's fat content.
+            <p>Firstly, we can use the percentage increase/decrease formula between Philadelphia brands. Original Philadelphia will be the starting value:
+                <br><b>Total Fat</b> = (end-start)/start
+                        <br>=(5-7)/7
+                            <br>=-29% 
+                                <p>Now, 29% may be <b>approximately</b> 1/3, but the fraction of 1/3 as a percentage is <b>33.33%</b></p>
+                                    We can further calculate the absolute and relative change, to see if that offers any insights: 
+                                        <br><b>Absolute change</b>= ending quantity-starting quantity
+                                            <br>Absolute change = 5g - 7g  
+                                                <br>Absolute change = -2g of fat per serving. That's always good, right? 
+                                                    <p>But what's the percentage from here? That's the <b>Relative Change</b>
+                                                        <br>Relative change = (Absolute change/starting quantity)*100
+                                                            <br>Relative change = (2/7)*100
+                                                                <br>Relative change = 28.6%. 
+                                                            <p>Same as previously, we're still a bit short of the 1/3 less fat we were promised - we're actually at 28/100 or 7/25 to be exact.</p>
+                                                        <p>Let's give Philadelphia some leeway and compare it to another brand, using the same calculations:</p>
+                                                    <b>Total Fat</b> = (end-start)/start
+                                                <br>=(5-10)/10
+                                            <br>=-50%
+                                        <p>That's better! Philadelphia should advertise as "50% less fat than competitors" as that is a true claim!</p>
+                                    <p>What if we assumed Philadelphia was using the daily value of fat intake as their reference? This is in percentages, also. 
+                                <br>To calculate the relative change, we again calculate the decreased percentage:
+                            <br><b>Daily Value</b> = (end-start)/start
+                        <br>=(7-9)/9
+                    <br>-22%
+                <p>Since we're in a helpful mood after the shopkeeper's issues, let's help Philadelphia Cream Cheese, too. What <i>would be</i> 1/3 fat of regular cream cheese?
+            <br> 33/33% of 7 = 2.33. 
+        <br> 7 - 2.33 = 4.7. 
+    <br> Now we can check with the equation we got so good at today: (end-start)/start:
+<br> (4.7-7)/7 =-33%. 
+    <p> So that's the <b>exact</b> amount of fat (in grams) needed to meet the 1/3 advertised amount: 4.7g 
+        <br>Now, 4.7 <i>does</i> round up to 5. So do we forgive Philadelphia? Is this accurate? 
+            <p><b>Conclusion:</b> this is tricky. On one hand, the low-fat cream cheese does not specify <i>which</i> cream cheese brand it is comparing itself to - unlike Pringle - <i>and</i> 4.7 does round to 5. 
+        In Conclusion, I think they slide through on a technicality, coupled with nutritional facts not supporting decimals, according to the <a href="https://foodlab.com/nf_mistakes_page/">Food Lab Website</a>.
+    <hr>
+</div>
+    </section>
+</details>
+<!--THREE-->
+<p>
+<!--FOUR-->
+<details>
+    <summary>Project Reflection</summary>
+        <section id="Reflection">
+            <div id="content"> 
+                <hr>
+                    <p>I genuinely enjoyed this project for several reasons. Firstly, it was a practical application of mathematics. 
+                    Although I study IT and utilize math perhaps more than other folks due to studying programming and other similar tasks; I remember a common critique of mathematics
+                    (particularly in theoretical courses or with younger people) is the inability to see explicit real-world applications. 
+                        </p>
+                    Allow me to be clear: obviously, we are surrounded by mathematics in engineering, construction, transport, the flow of electricity, using smartphones, etc. 
+                    But these are not the calculations a large group of people use and can refer to daily. 
+                    Furthermore, it was a real-world application of problem-solving skills that is in transcendence mathematics or any singular subject. 
+                        <p>
+                    Secondly, and relating to the above, I have not had the opportunity to do much front-end development and design in some time. 
+                    Although I have a programming class this semester, I am focusing on IT and infrastructure/networking, so to use these skills again in HTML/CSS/JS was enjoyable as a means of presentation. 
+                    I really wanted to maximize my score for originality and wanted to present something outside of a Canva or PowerPoint presentation. 
+                        </p>
+                    Lastly, it was thoroughly eye-opening to see how little regard some people took to percentages and their advertising of them. 
+                    While I may have somewhat expected the local store going out of business to be off with their advertising and pricing, I did not expect Philadelphia Cream Cheese to be so casual and non-specific. 
+                    I have worked in advertising and marketing and generally, companies go to great lengths to shield themselves and be as accurate as possible. 
+                    Pringles, for example, approximated their serving size, and the percentages comparatively were essentially within a margin of error. Philadelphia, as we noticed, was not so careful. 
+                    It was very interesting to discover how closely these companies monitor and verify the numbers that are advertised to customers. 
+                <hr>
+            </div>
+        </section>
+    </details>
+<p>
+    <details>
+        <summary>Additional Information</summary>
+            <div id="content"> 
+                <hr>
+                    <p> This is a project for MAT 1500: Problem Solving with Mathematics at SUNY Jamestown Community College.</p>
+                        <p>The views and opinions expressed are those of the student only and not of Jamestown Community College and are intended for educational purposes only.</p>
+                    <p> That cool typewriter effect at that heading? That is from <a href="https://css-tricks.com/snippets/css/typewriter-effect/">here</a>. Check out CSS tricks if you have the chance!
+                <p> All images are taken by me (Joshua M. Hill) and hosted on <a href="https://imgur.com/">Imgur</a>.
+            <p> Please review the disclaimers in the in footer of this page and feel free to             <a href="mailto:hill.joshua.michael@proton.me">contact me</a> with any concerns.</li>
+        <hr>
+    </div>
+</details>
+</div>
+<!--JS-->
+<script> 
+// Script for TIME 
+function callTime(){ // name function
+// GET time and DATE
+let NowDate=(new Date()).toDateString();
+let NowTime=(new Date()).toLocaleTimeString(); 
+// insert to DOM
+document.getElementById('time').innerHTML=`${NowDate}-${NowTime}`;
+}
+// setInterval to CALL FUNCTION in MS
+setInterval(function(){  callTime() }, 1000);
+//
+// Script for BUTTONS
+function details() {
+    alert(
+    "The creation and publication of this page was not mandated by any SUNY Jamestown Staff and the ownership is solely with the Student who created it. This page is not representative or specifically endorsed by Jamestown Community College. The views and opinions expressed are those of the student only and only intended for educational purposes. For further information, please utilize the 'contact me' on this page.")
+};
+//
+function image() {
+    alert(
+    "All images on this page have been taken by the webmaster and hosted on Imgur, and are for educational purposes only. For any questions or concerns, please utilize the 'contact me' on this page.")
+};
+</script>
+<!-- FOOTER-->
+        <section id="footer">
+            <button onclick="details()">Disclaimer</button>
+                <span id="deets"></span>
+                        <button onclick="image()">Images</button>
+                    <span id="imgs"></span> 
+                It's <span id="time"></span> 
+            <a href="mailto:hill.joshua.michael@proton.me">Contact Me!</a></li>
+        </section>
+    </body>
+</html>
