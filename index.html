@@ -18,21 +18,11 @@ img:hover{
     padding:10px;
 }
 /* Sections */ 
-#top{
-    border-top: 10px solid #00246B;     
-    border-bottom: 10px solid #00246B;  
-    background-color: #EA738D;
-    padding: 20px;
-}
 body {
     background-color: #89ABE3;
     color:#ffffff;
-    width: 100%;
-    font-size: 18pt;
-    margin-left: 0;
-    margin-top: 0;
+    margin: auto;
     margin-bottom: 200px;
-    margin-right: 100px;
 }
 #footer {
     position: fixed; 
@@ -47,6 +37,16 @@ body {
     border-top: 10px solid #00246B; 
     border-bottom: 10px solid #00246B;          
 }
+#spell {
+    background-color: #EA738D;
+    color: black;
+    top: 0;
+    width: 100%;
+    font-size: 20pt;
+    padding: 20px;
+    border-top: 10px solid #00246B; 
+    border-bottom: 10px solid #00246B;          
+}
 /* Specific ID */
 .container {
     display: flex;
@@ -55,14 +55,10 @@ body {
     text-align: center;
     padding-left: 30px;
     padding-right: 50px;
-}
-.type{
-    font-weight: bolder;
-    font-size: 24pt;
     margin-right: 100px;
 }
 #dropdowns{
-    margin-left: 2em;
+    margin-left: 5em;
     margin-top: 55px;
 }
 hr {
@@ -81,8 +77,9 @@ summary:hover{
     color: #6d8819;
 }
 #content {
-    margin-right: 100px;
     margin-bottom: 20px;
+    margin-right: 100px;
+
 }
 /* BUTTON */
 Button {
@@ -91,20 +88,21 @@ Button {
     color:#03191f;
     padding:5px 15px;
 }
-/* typewriter */
-.type h2 {
+#spell h2 {
     color: white;
     overflow: hidden;
     border-right: .15em solid white; 
     margin-right: 100px;
     white-space: nowrap; 
     margin: 0 auto; 
+    margin-left: 100px;
     animation: 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
+    margin-right: 15%;
 }
 /* The typing effect */
-    @keyframes typing {
+@keyframes typing {
       from { width: 0 }
       to { width: 100% }
 }
@@ -115,13 +113,11 @@ Button {
 }
 </style>           
 </head>
-<!-- HEADER --> 
-    <section id ="top">
-        <div class="type">
+<body>
+  <div id="spell">
             <h2>MAT 1500: Project One</h2>
         </div>
-    </section>
-<body>
+
 <!--INTRO --> 
 <div id="dropdowns">
     <div id="content">
